@@ -1,0 +1,27 @@
+[
+ {
+  "path": "/packages/language/JSON/cJSON", 
+  "ver": "v1.7.17", 
+  "name": "CJSON"
+ }, 
+ {
+  "path": "/packages/multimedia/LVGL/LVGL", 
+  "ver": "v8.3.11", 
+  "name": "LVGL"
+ }, 
+ {
+  "path": "/packages/multimedia/LVGL/lv_music_demo", 
+  "ver": "v0.3.4", 
+  "name": "LV_MUSIC_DEMO"
+ }, 
+ {
+  "path": "/packages/system/FlashDB", 
+  "ver": "v2.1.0", 
+  "name": "FLASHDB"
+ }, 
+ {
+  "path": "/packages/peripherals/touch/gt1151", 
+  "ver": "latest", 
+  "name": "GT1151"
+ }
+]
