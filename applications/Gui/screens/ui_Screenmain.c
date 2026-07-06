@@ -20,7 +20,7 @@ void ui_Screenmain_screen_init(void)
     lv_obj_set_x(ui_Label1, lv_pct(0));
     lv_obj_set_y(ui_Label1, lv_pct(28));
     lv_obj_set_align(ui_Label1, LV_ALIGN_TOP_MID);
-    lv_label_set_text(ui_Label1, "智能器件存储盒");
+    lv_label_set_text(ui_Label1, "智能器件存取管家");
     lv_obj_set_style_text_font(ui_Label1, &ui_font_Font2, LV_PART_MAIN | LV_STATE_DEFAULT);
 
     ui_Label2 = lv_label_create(ui_Screenmain);
@@ -29,7 +29,7 @@ void ui_Screenmain_screen_init(void)
     lv_obj_set_x(ui_Label2, 246);
     lv_obj_set_y(ui_Label2, 190);
     lv_obj_set_align(ui_Label2, LV_ALIGN_CENTER);
-    lv_label_set_text(ui_Label2, "芯火征途  你好AI");
+    lv_label_set_text(ui_Label2, "AI赋能设计 设计点亮AI");
     lv_obj_set_style_text_font(ui_Label2, &ui_font_Font1, LV_PART_MAIN | LV_STATE_DEFAULT);
 
     lv_obj_add_event_cb(ui_Screenmain, ui_event_Screenmain, LV_EVENT_ALL, NULL);
